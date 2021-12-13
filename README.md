@@ -33,7 +33,7 @@ Embed a simple HTML music player from local audio on your website using [MediaEl
   (Example of use on a website using iframes: [Dimatis Website](https://dimatis.yizack.com))
   [![Live Demo](https://yizack.com/images/embeddable-music-player/embeddeds.jpg)](https://dimatis.yizack.com)
 
-  - Thanks to the responsiveness you can play with the width and height as you want.
+- Thanks to the responsiveness you can play with the width and height as you want.
   ```html
   <iframe src="/player/{YOUR-HTML-PLAYER}.html" width="100%" height="450"></iframe>
   ```
