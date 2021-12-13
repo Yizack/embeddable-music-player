@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{SONG-NAME}</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/5.0.4/mediaelementplayer.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/music-player.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/5.0.4/mediaelement-and-player.min.js"></script>
+    <script src="/js/music-player.js"></script>
+  </head>
+  <body>
+    <div id="player" class="player-color">
+      <div id="container">   
+        <div id="controls">
+          <div class="lecteur">
+            <audio id="music" class="fc-media">
+              <source src="{MP3-SOURCE}" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+        <div id="cover">
+          <div id="box-1">
+            <div id="box-2">
+              <div id="box-3">
+                <div id="image" style="background: url('{ARTWORK}');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
