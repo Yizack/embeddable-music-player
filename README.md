@@ -21,7 +21,7 @@ Embed a simple HTML music player from local audio on your website using [MediaEl
   ```css
   .just-stay {
       background: rgb(240 170 194);
-   }
+  }
   ```
   - If you add a new class make sure to change the class attribute in [`/player/song.html`](https://github.com/Yizack/embeddable-music-player/blob/master/player/song.html) at this line `<div id="player" class="player-color">`, for example for the live demo I changed it to `<div id="player" class="just-stay">`.
 
