@@ -9,6 +9,7 @@ Embed a simple HTML music player from local audio on your website using [MediaEl
 - Square image.
 
 ## Configuration
+- Clone or download my repository ([Yizack/embeddable-music-player](https://github.com/Yizack/embeddable-music-player)).
 - Edit the file [`/player/song.html`](https://github.com/Yizack/embeddable-music-player/blob/master/player/song.html)
   - Paste your song name in `{SONG-NAME}` for the title of your page.
   - Paste your audio file URL in `{MP3-SOURCE}` for the audio that will be played when you press the play button.
