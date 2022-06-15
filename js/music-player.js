@@ -1,28 +1,13 @@
-$(function() {
-    var audio = {
-        init: function() {
-            var $that = this;
-                $(function() {
-                    $that.components.media();
-                });
-        },
-        components: {
-            media: function(target) {
-                var media = $('audio.fc-media', (target !== undefined) ? target : 'body')
-                if (media.length) {
-                    media.mediaelementplayer({
-                        iconSprite: '',
-                        audioHeight: 40,
-                        features : ['playpause', 'current', 'duration', 'progress', 'volume', 'tracks', 'fullscreen'],
-                        alwaysShowControls: true,
-                        timeAndDurationSeparator: '<span></span>',
-                        iPadUseNativeControls: false,
-                        iPhoneUseNativeControls: false,
-                        AndroidUseNativeControls: false
-                    });
-                }
-            },
-        },
-    };
-    audio.init();
-});
+(function() {
+    let media = document.querySelector("audio.fc-media");
+    let audio = new MediaElementPlayer(media, {
+        iconSprite: "",
+        audioHeight: 40,
+        features : ["playpause", "current", "duration", "progress", "volume", "tracks", "fullscreen"],
+        alwaysShowControls: true,
+        timeAndDurationSeparator: "<span></span>",
+        iPadUseNativeControls: false,
+        iPhoneUseNativeControls: false,
+        AndroidUseNativeControls: false
+    });
+ })();
