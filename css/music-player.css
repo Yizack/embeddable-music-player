@@ -1,6 +1,7 @@
 html, body {
     margin: 0px;
     overflow: hidden;
+    background: rgb(21, 21, 21);
 }
 
 /* mediaelement */
@@ -155,14 +156,4 @@ html, body {
     background-position: center top!important;
     height: 100%;
     position: relative;
-}
-
-/* player color */
-
-.player-color {
-    background: rgb(23, 24, 28);
-}
-
-.just-stay {
-    background: rgb(240 170 194);
 }
