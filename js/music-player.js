@@ -20,6 +20,6 @@ img.onload = () => {
     let colorThief = new ColorThief();
     let color = colorThief.getColor(img);
     let player = document.getElementById("player");
-    player.style.backgroundColor = "rgb(" + color + ")";
+    player.style.backgroundColor = `rgb(${color})`;
     player.style.display = "block";
 }
