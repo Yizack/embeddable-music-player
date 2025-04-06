@@ -1,5 +1,5 @@
 # embeddable-music-player
-Embed a simple HTML music player from local audio on your website using [MediaElement.js](https://www.mediaelementjs.com/) and [Color Thief](https://lokeshdhakar.com/projects/color-thief/). Inspired by Spotify's embed player.
+Embed a simple HTML music player from local audio on your website using [MediaElement.js](https://www.mediaelementjs.com/) and [fast-average-color](https://github.com/fast-average-color/fast-average-color). Inspired by Spotify's embed player.
 
 (Fullscreen Live [Demo](https://embeddable-music-player.yizack.com/player/just-stay.html))
 [![Live Demo](https://yizack.com/images/embeddable-music-player/full-screen.jpg)](https://embeddable-music-player.yizack.com/player/just-stay.html)
@@ -22,12 +22,12 @@ Embed a simple HTML music player from local audio on your website using [MediaEl
   ```html
   <iframe src="/player/{YOUR-HTML-PLAYER}.html" width="300" height="385"></iframe>
   ```
-  (Example of use on a website using iframes: [Dimatis Website](https://dimatis.yizack.com))
+  (Example [Dimatis Website](https://dimatis.yizack.com))
   [![Live Demo](https://yizack.com/images/embeddable-music-player/embeddeds.jpg)](https://dimatis.yizack.com)
 
 - Thanks to the responsiveness you can play with the width and height as you want.
   ```html
   <iframe src="/player/{YOUR-HTML-PLAYER}.html" width="100%" height="450"></iframe>
   ```
-  (Another example of use on a website using iframes: [Dimatis - Fly Again](https://dimatis.yizack.com/music/fly-again))
+  (Another example: [Dimatis - Fly Again](https://dimatis.yizack.com/music/fly-again))
   [![Live Demo](https://yizack.com/images/embeddable-music-player/embeddeds2.jpg)](https://dimatis.yizack.com/music/fly-again)
