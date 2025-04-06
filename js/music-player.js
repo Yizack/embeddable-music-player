@@ -12,6 +12,11 @@ const audio = new MediaElementPlayer(media, {
 
 const fac = new FastAverageColor();
 const img = document.querySelector(".musicplayer .mp__image");
-const color = fac.getColor(img);
-const player = document.querySelector(".musicplayer");
-player.style.backgroundColor = color.rgb;
+
+const detectColor = async () => {
+  const color = await fac.getColorAsync(img.src);
+  const player = document.querySelector(".musicplayer");
+  player.style.backgroundColor = color.rgb;
+}
+
+detectColor();
